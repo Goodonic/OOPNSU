@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(Task2_1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(Task2_1 main.cpp reference_add.cpp add.cpp modified_add.cpp)
